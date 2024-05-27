@@ -1,0 +1,26 @@
+body {
+  background-color: gray;
+}
+.header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.border-line {
+  width: 600px;
+  border-bottom: solid gainsboro 3px;
+}
+img {
+  height: 300px;
+  width: 200px;
+  border: solid black 3px;
+  flex-grow: 1;
+  flex-basis: 22.5%;
+  margin: 10px;
+}
+.image-container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
